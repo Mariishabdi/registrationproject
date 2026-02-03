@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Student Course Registration</h2>
+  <p class="subtitle">Fill the form carefully to register</p>
+
+  <form id="registrationForm">
+
+    <input type="text" id="name" placeholder="Enter your name">
+    <small id="nameError" class="error-text"></small>
+
+    <input type="email" id="email" placeholder="example@email.com">
+
+    <input type="text" id="studentId" placeholder="Student ID (8 characters)">
+
+    <input type="text" id="phone" placeholder="Phone Number (9–10 digits)">
+
+    <select id="course">
+      <option value="">Select Course</option>
+      <option value="web" data-fee="120">Web Development</option>
+      <option value="network" data-fee="100">Networking</option>
+      <option value="cs" data-fee="150">Computer Science</option>
+    </select>
+
+    <input type="text" id="fee" placeholder="Course Fee" readonly>
+
+    <label class="agree">
+      <input type="checkbox" id="agree">
+      I agree to the terms & conditions
+    </label>
+
+    <p id="errorMsg" class="error-text"></p>
+    <p id="successMsg" class="success-text"></p>
+
+    <button type="submit">Register Now</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
