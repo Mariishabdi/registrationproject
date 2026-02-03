@@ -28,10 +28,6 @@ This project is suitable for **beginners** who are learning web development and 
 ## 🛠️ Technologies Used
 - HTML
 - CSS
-- JavaScript  
+- JavaScript
 
-
-### Clone the repository
-```bash
-git clone https://github.com/Mariishabdi/registrationproject.git
 
