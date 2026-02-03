@@ -29,9 +29,9 @@ This project is suitable for **beginners** who are learning web development and 
 - HTML
 - CSS
 - JavaScript  
-*(Can be extended with backend technologies like Node.js, PHP, or databases)*
 
 
 ### Clone the repository
 ```bash
 git clone https://github.com/Mariishabdi/registrationproject.git
+
